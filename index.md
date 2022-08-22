@@ -7,9 +7,9 @@ title: {{ site.title }}
 [Releases]({{ site.github.releases_url }})
 
 <ul>
-    {% for doc in site.docs %}
+    {% for doc in site.pages %}
       <li>
-        <a href="{{ doc.url }}.html">{{ doc.title }}</a>
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
         <blockquote>
             {{ doc.intro }}
         </blockquote>
