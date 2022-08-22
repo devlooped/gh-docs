@@ -1,0 +1,18 @@
+title: GitHub Docs Theme
+email: email@domain.com
+author: The Author
+
+markdown: kramdown
+
+collections:
+  docs:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: default
+      permalink: /:collection/:path
